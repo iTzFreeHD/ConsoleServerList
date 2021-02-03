@@ -2,4 +2,4 @@ name: ConsoleServerList
 author: "iTzFreeHD"
 api: ["4.0.0", "3.0.0"]
 main: iTzFreeHD\cServerList\ConsoleServerList
-version: 0.1
+version: 1.0
