@@ -5,7 +5,7 @@ namespace iTzFreeHD\cServerList;
 
 use iTzFreeHD\cServerList\event\PlayerJoinListener;
 use iTzFreeHD\cServerList\gui\ServerListGui;
-use iTzFreeHD\cServerList\query\asyncQuery;
+use iTzFreeHD\cServerList\query\AsyncQuery;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
