@@ -21,7 +21,7 @@ class ServerEditGui extends CustomForm
         $this->id = $id;
         parent::__construct("Add/edit server", [
             new Input("Server name", "", $name),
-            new Input("Ip", "", $ip),
+            new Input("IP", "", $ip),
             new Input("Port", "", $port),
         ]);
     }
