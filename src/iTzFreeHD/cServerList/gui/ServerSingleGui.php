@@ -41,7 +41,7 @@ class ServerSingleGui extends MenuForm
             case 1:
                 try {
                     $serverListInfo = ConsoleServerList::getInstance()->getServerConfig()->getServerList()[$this->id];
-                    $player->sendForm(new ServerEditGui($this->id, $serverListInfo["name"], $this->serverInfo["ip"], $this->serverInfo["port"]));
+                    $player->sendForm(new ServerEditGui($this->id, $serverListInfo["name"], $this->serverInfo["IP"], $this->serverInfo["port"]));
                 } catch (\Throwable $exception) {}
 
                 break;
